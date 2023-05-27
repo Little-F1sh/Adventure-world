@@ -1,14 +1,11 @@
 @media only screen and (min-width: 0px) and (max-width: 600px) {
   .container {
     width: 480px;
-    margin: auto;
+    margin: 0 auto;
   }
 
-  header {
-    width: 606px;
-  }
   .logo {
-    margin-top: 10px;
+    margin: 10px 0 0 10px;
   }
   .logo h2 {
     font-size: 16px;
@@ -18,6 +15,9 @@
   }
   nav {
     width: 50%;
+  }
+  nav ul {
+    margin-right: 10px;
   }
   nav ul li a {
     font-size: 14px;
@@ -84,6 +84,7 @@
   }
   .upcoming-content {
     flex-direction: column;
+    padding: 30px 0;
   }
   .tour {
     width: 100%;
@@ -104,23 +105,107 @@
   .big{
     height: 300px;
   }
+  .footer div ul li a {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   .container {
-    width: 768px;
-    margin: auto;
+    width: 720px;
+    margin: 0 auto;
+  }
+  .logo {
+    margin: 10px 0 0 10px;
   }
 
-  header {
-    width: 768px;
+  .logo h2 {
+    font-size: 20px;
   }
 
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1279px) {
-  .container {
-    width: 900px;
-    margin: auto;
+  .logo h2 span {
+    font-size: 16px;
   }
+
+  nav {
+    width: 70%;
+  }
+
+  nav ul {
+    margin-right: 10px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    padding: 6px;
+  }
+  .banner {
+    padding: 100px;
+  }
+
+  .banner h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .banner h1 {
+    margin: 30px;
+  }
+
+  .banner a {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .event {
+    padding: 50px;
+    font-size: 25px;
+  }
+
+  .event-flex {
+    flex-direction: row;
+  }
+
+  .content {
+    padding: 5px;
+  }
+
+  .content img {
+    box-shadow: none;
+    height: 290px;
+  }
+
+  .content h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .content a {
+    padding: 10px;
+    font-size: 16px;
+  }
+    .explore-content {
+      padding: 100px 0;
+      margin-top: 80px;
+    } 
+    .content-container h2 {
+      font-size: 50px;
+    }
+  
+    .content-container p {
+      font-size: 16px;
+    }
+  
+    .content-container a {
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    .upcoming-content {
+      padding: 30px 0;
+    }
 }

@@ -20,7 +20,6 @@ header {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.411);
   background-blend-mode: multiply;
-  width: 900px;
   padding: 15px 0;
 }
 
@@ -188,7 +187,7 @@ nav ul li a {
 
 .explore-fixed {
   display: flex;
-  justify-content: center;
+  justify-content: end;
 }
 
 .content-container {
@@ -299,10 +298,12 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
 }
+.footer div {
+  width: 33%;
+}
 
 .footer div ul {
   list-style: none;
-  font-size: 18px;
 }
 
 .footer div ul li {
