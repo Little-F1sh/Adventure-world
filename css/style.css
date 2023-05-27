@@ -28,32 +28,42 @@ header {
   width: 900px;
   margin: auto;
 }
+
 .flex {
   display: flex;
 }
-.logo{
+
+.logo {
   width: 20%;
 }
+
 .logo h2 {
   font-weight: 600;
   font-size: 22px;
   color: white;
 }
+
 .logo h2 span {
   font-size: 16px;
   font-weight: 400;
   display: block;
 }
+
 nav {
   width: 80%;
+
 }
-nav ul{
+
+nav ul {
   display: flex;
   justify-content: end;
+  margin-top: 10px;
 }
+
 nav ul li {
   list-style: none;
 }
+
 nav ul li a {
   color: white;
   font-size: 18px;
@@ -61,16 +71,19 @@ nav ul li a {
   padding: 8px;
   text-decoration: none;
 }
-.banner{
+
+.banner {
   color: white;
   text-align: center;
   padding: 150px 0;
 }
+
 .banner h3 {
   font-style: italic;
   font-size: 30px;
   font-weight: 600;
 }
+
 .banner hr {
   width: 100px;
   height: 5px;
@@ -82,11 +95,13 @@ nav ul li a {
   border: none;
   border-radius: 5px;
 }
+
 .banner h1 {
   margin: 36px;
   font-size: 63px;
   font-weight: 600;
 }
+
 .banner a {
   color: white;
   background-color: #fb2259;
@@ -96,12 +111,14 @@ nav ul li a {
   padding: 12px;
   border-radius: 5px;
 }
+
 .event {
   padding: 60px;
   text-align: center;
   font-size: 30px;
   color: black;
 }
+
 .event span {
   width: 100px;
   height: 5px;
@@ -113,26 +130,31 @@ nav ul li a {
   margin-bottom: 20px;
   border-radius: 5px;
 }
+
 .content {
   padding: 20px;
-  text-align: center;  
+  text-align: center;
 }
+
 .content img {
   height: 350px;
   object-fit: cover;
   border-radius: 5px;
   box-shadow: 10px 10px 2px #8080807d;
 }
+
 .content h2 {
   font-size: 30px;
   color: #000000cc;
   margin: 20px 0 0 0;
 }
+
 .content p {
   color: #373737;
   font-size: 18px;
   margin-bottom: 36px;
 }
+
 .content a {
   color: white;
   background-color: #fb2259;
@@ -141,8 +163,9 @@ nav ul li a {
   text-decoration: none;
   padding: 12px;
   border-radius: 5px;
-  
+
 }
+
 .explore-content {
   background-image: url("../images/father.jpg");
   background-repeat: no-repeat;
@@ -156,16 +179,20 @@ nav ul li a {
   color: white;
 
 }
+
 .flex {
   display: flex;
   justify-content: end;
 }
+
 .content-container {
   width: 50%;
 }
+
 .content-container h2 {
   font-size: 60px;
 }
+
 .content-container span {
   width: 100px;
   height: 5px;
@@ -176,10 +203,12 @@ nav ul li a {
   align-items: center;
   border-radius: 5px;
 }
-.content-container p{
+
+.content-container p {
   font-size: 18px;
   margin: 10px 0 36px 0;
 }
+
 .content-container a {
   color: white;
   background-color: #fb2259;
@@ -189,17 +218,21 @@ nav ul li a {
   padding: 12px;
   border-radius: 5px;
 }
+
 .upcoming-content {
   padding: 60px 0;
   display: flex;
 }
+
 .tures {
   padding: 10px;
   width: 33.33%;
 }
+
 .tures h3 {
   font-size: 26px;
 }
+
 .tures span {
   width: 100px;
   height: 5px;
@@ -209,10 +242,12 @@ nav ul li a {
   margin-bottom: 25px;
 
 }
+
 .tures p {
   font-size: 18px;
   padding-bottom: 36px;
 }
+
 .tures a {
   color: white;
   background-color: #fb2259;
@@ -223,6 +258,7 @@ nav ul li a {
   border-radius: 5px;
 
 }
+
 .small {
   height: 300px;
   object-fit: cover;
@@ -234,6 +270,7 @@ nav ul li a {
   object-fit: cover;
   margin-bottom: 20px;
 }
+
 .one {
   width: 100%;
   height: 5px;
@@ -242,25 +279,30 @@ nav ul li a {
   margin-top: 5px;
   margin-bottom: 10px;
 }
+
 .two {
-width: 100%;
+  width: 100%;
   height: 5px;
   display: block;
   background: #FB2259;
   margin-top: 5px;
   margin-bottom: 25px;
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
 }
+
 .footer div ul {
   list-style: none;
   font-size: 18px;
-} 
+}
+
 .footer div ul li {
   padding: 5px;
 }
+
 .footer div ul li a {
   text-decoration: none;
   padding: 10px;
