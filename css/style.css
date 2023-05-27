@@ -29,8 +29,10 @@ header {
   margin: auto;
 }
 
-.flex {
+.header-flex {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -118,7 +120,11 @@ nav ul li a {
   font-size: 30px;
   color: black;
 }
-
+.event-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
 .event span {
   width: 100px;
   height: 5px;
@@ -180,9 +186,9 @@ nav ul li a {
 
 }
 
-.flex {
+.explore-fixed {
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 
 .content-container {
@@ -224,16 +230,16 @@ nav ul li a {
   display: flex;
 }
 
-.tures {
+.tour {
   padding: 10px;
   width: 33.33%;
 }
 
-.tures h3 {
+.tour h3 {
   font-size: 26px;
 }
 
-.tures span {
+.tour span {
   width: 100px;
   height: 5px;
   background: #FB2259;
@@ -243,12 +249,12 @@ nav ul li a {
 
 }
 
-.tures p {
+.tour p {
   font-size: 18px;
   padding-bottom: 36px;
 }
 
-.tures a {
+.tour a {
   color: white;
   background-color: #fb2259;
   letter-spacing: 2px;

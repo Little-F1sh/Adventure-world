@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 0px) and (max-width: 600px) {
   .container {
     width: 480px;
     margin: auto;
@@ -7,18 +7,102 @@
   header {
     width: 606px;
   }
-
+  .logo {
+    margin-top: 10px;
+  }
+  .logo h2 {
+    font-size: 16px;
+  }
+  .logo h2 span{
+    font-size: 12px;
+  }
+  nav {
+    width: 50%;
+  }
+  nav ul li a {
+    font-size: 14px;
+    padding: 4px ;
+  }
   .banner {
-    padding: 60px 0;
+    padding: 40px;
   }
-
-  .flex {
+  .banner h3 {
+    font-size: 20px;
+  }
+  .banner h1 {
+    font-size: 45px;
+    margin: 20px;
+  }
+  .banner a {
+    padding: 6px;
+    font-size: 12px;
+  }
+  .event {
+    padding: 30px;
+    font-size: 20px;
+  }
+  .event-flex {
     flex-direction: column;
-
   }
-
-  .fixed {
+  .content {
+    padding: 20px 0;
+  }
+  .content img{
+    box-shadow: none;
+  }
+  .content h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .content a {
+    padding: 6px;
+    font-size: 12px;
+  }
+  .explore-content {
+    padding: 60px 0;
+    margin-top: 50px;
+  }
+  .explore-fixed {
     width: 606px;
+  }
+  .content-container{
+    width: 100%;  
+  }
+  .content-container h2 {
+    font-size: 30px;
+  }
+  .content-container p {
+    font-size: 14px;
+  }
+  .content-container a {
+    padding: 6px;
+    font-size: 12px;
+  }
+  .upcoming-content {
+    flex-direction: column;
+  }
+  .tour {
+    width: 100%;
+  }
+  .tour h3 {
+    font-size: 20px;
+  }
+  .tour p{
+    font-size: 12px
+  }
+  .tour a{
+    padding: 6px;
+    font-size: 12px;
+  }
+  .small {
+    height: 300px;
+  }
+  .big{
+    height: 300px;
   }
 }
 
